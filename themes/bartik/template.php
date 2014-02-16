@@ -1,6 +1,16 @@
 <?php
 
 /**
+ * Added by Rich J.
+ */
+function bartik_preprocess_page(&$vars) {
+	if (drupal_is_front_page()) {
+		unset($vars['page']['content']['system_main']['default_message']); // will remove message "no front page content created yet"
+		drupal_set_title('');  // removes welcome message (page title)
+	}
+}
+
+/**
  * Add body classes if certain regions have content.
  */
 function bartik_preprocess_html(&$variables) {
