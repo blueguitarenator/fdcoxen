@@ -1,4 +1,5 @@
 username: nate ####
+git passphrase 12341234
 
 CONTENTS OF THIS FILE
 ---------------------
