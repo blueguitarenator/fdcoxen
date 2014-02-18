@@ -1,0 +1,35 @@
+; This is a comment
+
+core = 7.x
+name = fdcOXEN
+description = A theme for the fdc|OXEN site
+engine = phptemplate
+
+stylesheets[all][] = css/style.css
+
+regions[user_main] = User Menu
+regions[main_menu] = Main Menu
+regions[content] = Content
+
+;features[] = logo
+;features[] = favicon
+;features[] = name
+;features[] = slogan
+;features[] = node_user_picture
+;features[] = comment_user_picture
+;features[] = comment_user_verification
+;features[] = main_menu
+;features[] = secondary_menu
+
+;regions[page_top] = Page Top
+;regions[header] = Header
+;regions[highlighted] = Highlighted
+;regions[help] = Help
+;regions[content] = Content
+;regions[sidebar_first] = Sidebar First
+;regions[sidebar_second] = Sidebar Second
+;regions[footer] = Footer
+;regions[page_bottom] = Page Bottom
+
+
+;scripts[] = path/to/script.js
