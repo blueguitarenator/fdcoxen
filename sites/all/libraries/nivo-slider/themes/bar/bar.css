@@ -22,7 +22,10 @@ Supports Thumbs: false
 	top:0px;
 	left:0px;
 	display:none;
+	width: 500px;
+	height: 400px !important;
 }
+
 .theme-bar .nivoSlider a {
 	border:0;
 	display:block;
