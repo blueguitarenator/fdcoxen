@@ -1,0 +1,5 @@
+name = Milkshake
+description = Demonstrates menu local tasks.
+package = Asynchrony
+core = 7.x
+files[] = milkshake.module
